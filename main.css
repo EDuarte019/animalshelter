@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Nav Styles */
+
+nav{
+    background: white;
+}
+nav a:active, nav a:hover{
+    background-color: rgba(18, 42, 228, 0.432);
+    color: white;
+}
