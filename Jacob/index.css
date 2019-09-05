@@ -43,6 +43,9 @@ font-weight: 700;
     width: 60%;
     margin: auto;
     margin-top: 20px;
+    border: 5px solid rgb(8, 165, 238);
+    position: relative;
+    box-shadow: 5px 10px 5px 10px rgb(0,0,0);
 }
 .carousel-item{
     height: 400px;
