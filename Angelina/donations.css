@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Header Styles */
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    padding: 5%;
+}
+label.donationAmount{
+     display: block;
+}
+
+#inputAddress {
+    width: 100%;
+}
