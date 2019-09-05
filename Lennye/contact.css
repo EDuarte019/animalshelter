@@ -6,3 +6,10 @@ padding: 5%;
 tr:nth-of-type(odd){
 background:  #007bff;
 }
+thead tr{
+    background: white;
+}
+
+tr{
+    text-align: center;
+}
