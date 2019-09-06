@@ -1,0 +1,18 @@
+form{
+text-align: center;
+padding: 5%;
+}
+
+tr:nth-of-type(odd){
+background:  #007bff;
+}
+thead tr{
+    background: white;
+}
+
+tr{
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=/contact.b15d9a0d.css.map */

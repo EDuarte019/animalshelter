@@ -117,19 +117,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"app.js":[function(require,module,exports) {
-"use strict";
+})({"css/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
 
-var _jquery = _interopRequireDefault(require("jquery"));
-
-var _carousel = _interopRequireDefault(require("./carousel.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _carousel.default)();
-(0, _jquery.default)('.carousel').carousel({
-  interval: 2000
-});
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{}],"../../../.nvm/versions/node/v10.16.3/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -333,5 +325,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../.nvm/versions/node/v10.16.3/lib/node_modules/parcel/src/builtins/hmr-runtime.js","app.js"], null)
-//# sourceMappingURL=/app.c328ef1a.js.map
+},{}]},{},["../../../.nvm/versions/node/v10.16.3/lib/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+//# sourceMappingURL=/css.967bad95.js.map
