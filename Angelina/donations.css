@@ -15,3 +15,11 @@ label.donationAmount{
 #inputAddress {
     width: 100%;
 }
+
+#inlineRadio4 {
+    display: none;
+}
+
+.toggle-display {
+    display: block !important;
+}
