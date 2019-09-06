@@ -10930,35 +10930,24 @@ return jQuery;
 } );
 
 },{"process":"../../../.nvm/versions/node/v10.16.3/lib/node_modules/parcel/node_modules/process/browser.js"}],"carousel.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
 function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
 
-var _default = function _default(params) {
-  var innerCarousel = document.getElementsByClassName("innerCarousel");
-  var next = document.getElementsByClassName("next");
-  var prev = document.getElementsByClassName("prev");
-  var images = [document.getElementsByClassName("item-1"), document.getElementsByClassName("item-2"), document.getElementsByClassName("item-3")];
-  var i = images.length; // Adding the function to go to the next slide
+var innerCarousel = document.getElementsByClassName("carousel-inner");
+var next = document.getElementsByClassName("next");
+var prev = document.getElementsByClassName("prev");
+var images = [document.getElementsByClassName("item-1"), document.getElementsByClassName("item-2"), document.getElementsByClassName("item-3")];
+var i = images.length; // Adding the function to go to the next slide
 
-  next.onclick = function () {
-    i = i < images.length ? i = i + 1 : i = 1;
-    innerCarousel = (_readOnlyError("innerCarousel"), images[i - 1]);
-  }; // Adding the function to go to the previous slide
+next.onclick = function () {
+  i = i < images.length ? i = i + 1 : i = 1;
+  innerCarousel = (_readOnlyError("innerCarousel"), images[i - 1]);
+}; // Adding the function to go to the previous slide
 
 
-  next.onclick = function () {
-    i = i < images.length + 1 && i > 1 ? i = i - 1 : i = images.length;
-    innerCarousel = (_readOnlyError("innerCarousel"), images[i - 1]);
-  };
+next.onclick = function () {
+  i = i < images.length + 1 && i > 1 ? i = i - 1 : i = images.length;
+  innerCarousel = (_readOnlyError("innerCarousel"), images[i - 1]);
 };
-
-exports.default = _default;
 },{}],"app.js":[function(require,module,exports) {
 "use strict";
 
@@ -11000,7 +10989,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52291" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53518" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

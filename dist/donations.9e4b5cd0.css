@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Header Styles */
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    padding: 5%;
+    padding-bottom: 0;
+}
+label.donationAmount{
+     display: block;
+}
+
+#inputAddress {
+    width: 100%;
+}
+
+#inlineRadio4 {
+    display: none;
+}
+
+.toggle-display {
+    display: block !important;
+}
+
+/*# sourceMappingURL=/donations.9e4b5cd0.css.map */
