@@ -1,4 +1,4 @@
-const innerCarousel = document.getElementsByClassName("innerCarousel");
+const innerCarousel = document.getElementsByClassName("carousel-inner");
 const next = document.getElementsByClassName("next");
 const prev = document.getElementsByClassName("prev");
 

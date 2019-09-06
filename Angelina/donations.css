@@ -7,6 +7,7 @@ h1, h2 {
 
 form {
     padding: 5%;
+    padding-bottom: 0;
 }
 label.donationAmount{
      display: block;
