@@ -1,0 +1,25 @@
+{
+  "name": "animalshelter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adoption.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDuarte019/animalshelter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDuarte019/animalshelter/issues"
+  },
+  "homepage": "https://github.com/EDuarte019/animalshelter#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
