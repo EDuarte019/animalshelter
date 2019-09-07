@@ -10,8 +10,8 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  -->
     <!-- <link rel="stylesheet" href="adoption.css"> -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./css/adoption.css" />
+    <!-- <script src="./app.js"></script> -->
   </head>
   <body>
 <header>
@@ -34,222 +34,226 @@
 </header>
 
 <!-- Page Content -->
-<div class="container">
-  <h1>Our loving animals</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus vero recusandae tempore! Doloremque laborum magnam quo optio in et vel dolores quaerat, quae, iure illo. Asperiores, distinctio placeat. Voluptatem, deleniti?</p>
-</div>
-<div class="container">
-  <div class="row">
-    <!-- puppy 1 -->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/dog-shelter.jpg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Spots</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
-        </div>
-      </div>
-    </div>
-    <!-- puppy 2-->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/download.jpeg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Rex</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- cat 3-->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/images(1).jpeg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Cuddles</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- cat 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-         <img src="./img/download.jpeg" height="200px" class="card-img-top" alt=".."> 
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Furball</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
+<div class="push">
+  <div class="container">
+    <h1 id="center">Our loving animals</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus vero recusandae tempore! Doloremque laborum magnam quo optio in et vel dolores quaerat, quae, iure illo. Asperiores, distinctio placeat. Voluptatem, deleniti?</p>
   </div>
-  <!-- /.row -->
-
-  <!-- row 2 -->
-  <div class="row">
-    <!-- puppy 1 -->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/puppy.jpg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Max</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- bunny 1-->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/bunny.jpeg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Oreo</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- bunny 2-->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/bunny1.jpeg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Cinnabun</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-        </div>
-      </div>
-    </div>
-    <!-- cat 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
-      <div class="card border-0 shadow">
-        <img src="./img/cat.jpeg" height="200px" class="card-img-top" alt="..">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">Zoe</h5>
-          <div class="card-text text-black-50">Price:$$$</div>
-          <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
+  <div class="container">
     <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
+      <!-- puppy 1 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/dog-shelter.jpg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Spots</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+  
+          </div>
+        </div>
       </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Partners</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <!-- puppy 2-->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/download.jpeg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Rex</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
       </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Animal Guides</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <!-- cat 3-->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/images(1).jpeg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Cuddles</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
       </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <!-- cat 4 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+           <img src="./img/download.jpeg" height="200px" class="card-img-top" alt=".."> 
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Furball</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
-
+    <!-- /.row -->
+  
+    <!-- row 2 -->
+    <div class="row">
+      <!-- puppy 1 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/puppy.jpg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Max</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- bunny 1-->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/bunny.jpeg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Oreo</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- bunny 2-->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/bunny1.jpeg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Cinnabun</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- cat 4 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="./img/cat.jpeg" height="200px" class="card-img-top" alt="..">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Zoe</h5>
+            <div class="card-text text-black-50">Price:$$$</div>
+            <div class="card-text text-black-50">For more information, <a href="contact.html">contact us</a></div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- Footer Links -->
-
-
+  
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Partners</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Animal Guides</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+</div>
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-
+<script src="./js/adoption.js"></script>
 </footer>
 <!-- Footer -->
 <!-- /.container -->
