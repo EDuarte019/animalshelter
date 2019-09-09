@@ -1,8 +1,8 @@
-const innerCarousel = document.getElementsByClassName("carousel-item");
-const next = document.getElementsByClassName("next");
-const prev = document.getElementsByClassName("prev");
+const innerCarousel = document.getElementsByClassName("carousel-inner");
+const next = document.getElementById("next");
+const prev = document.getElementById("prev");
 
-const images = ["<img class='d-block w-100' src='./img/dog-shelter.jpg' alt='First slide'>","<img class='d-block w-100' src='./img/download.jpeg' alt='Second slide'>","<img class='d-block w-100' src='./img/puppy.jpg' alt='Third slide'>"];
+const images = [document.getElementsByClassName("item-1"), document.getElementsByClassName("item-2"), document.getElementsByClassName("item-3")];
 
 let imageLength= images.length;
 
@@ -10,11 +10,16 @@ let imageLength= images.length;
 
 next.onclick = () =>{
     imageLength  = (imageLength<images.length) ? (imageLength=imageLength+1) : (imageLength=1);
-    innerCarousel = images[imageLength-1];
-} 
+    innerCarousel.innerHTML = images[imageLength-1].classList.add("active");
+    // console.log("next");
+}
+
+
+
 
 // Adding the function to go to the previous slide
 prev.onclick = () =>{
-    imageLength = (imageLength<images.length+1 && i>1)?(imageLength=imageLength-1):(imageLength=images.length);
+    imageLength = (imageLength<images.length+1 && imageLength>1)?(imageLength=imageLength-1):(imageLength=images.length);
     innerCarousel.innerHTML = images[imageLength-1];
+    // console.log("prev")
 } 

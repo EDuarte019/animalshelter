@@ -67,7 +67,8 @@ font-weight: 700;
     background-image: url("/img/puppy.jpg");
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
 .item-3{
     background-image: url("/img/download.jpeg");
     background-position: center; 
