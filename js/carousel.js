@@ -19,7 +19,7 @@ next.onclick = () =>{
 
 // Adding the function to go to the previous slide
 prev.onclick = () =>{
-    imageLength = (imageLength<images.length+1 && imageLength>1)?(imageLength=imageLength-1):(imageLength=images.length);
+    imageLength = (imageLength<images.length+1 && i>1)?(imageLength=imageLength-1):(imageLength=images.length);
     innerCarousel.innerHTML = images[imageLength-1];
     // console.log("prev")
 } 
